@@ -1,0 +1,245 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    font-family: josh,Arial, Helvetica, sans-serif;
+}
+
+.socialmedia-icon{
+   display: flex;
+   flex-direction: row;
+   
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.twit{
+    font-size: 20px;
+}
+.face{
+    font-size: 20px;
+    margin: 3px;
+}
+.mail{
+    font-size: 20px;
+    margin: 3px;
+}
+.insta{
+    font-size: 20px;
+    margin: 3px;
+}
+
+.top-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+     
+}
+
+
+.navigation{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+     margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color:black;
+    font-size: 14px;
+    align-items: center;
+    padding-right: 10px;
+}
+/* .home{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    font-style: color black;
+}
+
+.Shop{
+    display: flex;
+    flex-direction: row;
+   
+    margin-right: 5px;
+}
+.element{
+    display: flex;
+    margin-right: 5px;
+}
+.page{
+    display: flex;
+    margin-right: 5px;
+}
+.vendor{
+    display: flex;
+    margin-right: 5px;
+} */
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.right-icon{
+    display: flex;
+   margin: 6px;
+   align-items: center;
+   justify-content: center;
+  
+}
+.cate{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.cate-icon{
+    font-size: 25px;
+}
+.cate-icon-2{
+    font-size: 25px;
+}
+.cate-icon-3{
+    font-size: 25px;
+    color: red;
+}
+.cate-icon-4{
+    font-size: 25px;
+}
+.cate-icon-5{
+    font-size: 24px;
+}
+
+.topbanner{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(246, 93, 93);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 156px;
+    padding-right: 130px;
+    height: 50px;
+
+    
+}
+.topban-1{
+    display: flex;
+
+}
+.topban-1 h1{
+    color: white;
+    font-size: small;
+}
+.falagban{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.falagban p{
+    color: white;
+   margin-left: 5px;
+   font-size: 15px;
+
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.log-user{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+   
+}
+.icon-user{
+    display: flex;
+    align-items: center;
+}
+
+.newsp{
+    font-size: 18px;
+    color: white;
+    padding-top: 5px;
+    padding-right: 5px;
+  
+   
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    /* margin-top: 10px; */
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.nam-1{
+    display: flex;
+    align-items: center;
+}
+.nam-1 p{
+    /* color: white; */
+    margin-top: 5px;
+    color: white;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.top-head-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:85%;
+    
+}
+.down{
+    padding-top: 5px;
+    font-size: 12px;
+    color: rgb(39, 38, 38);
+    
+    
+}
+.currency p{
+    margin-left: 6px;
+    color: white;
+    font-size: 15px;
+}
+.re-log-1{
+    background-color: rgb(246, 93, 93)
+}
+.currency{
+    display: flex;
+    padding-left: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: black;   
+}

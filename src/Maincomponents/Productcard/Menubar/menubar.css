@@ -1,0 +1,23 @@
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    
+}
+.allist{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 17px;
+    padding-bottom: 10PX;
+}

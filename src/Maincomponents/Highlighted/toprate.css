@@ -1,0 +1,103 @@
+.highlight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.toprate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.bestselling {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.onsale{
+  display: flex;
+  flex-direction: column;
+  width:30%;
+}
+.quick-icon {
+  font-size: 20px;
+  
+}
+.quick-icon:hover{
+  color: white;
+  background-color: red;
+  
+}
+.quickview {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+ 
+}
+.quickview:hover{
+    background-color: red;
+}
+.ptop-1:hover > .quickview {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  cursor: pointer;
+}
+.ptop-1:hover{
+opacity: 0.4;
+}
+.top-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+.ptop-1{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+.topimg{
+  display: flex;
+  height: 125px;
+  width: 125px;
+}
+.ptop-title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 60%;
+}
+.e-title{
+  display: flex;
+  font-size: 14px;
+  flex-wrap: wrap;
+ 
+}
+.rating{
+  display: flex;
+  font-size: 12px;
+  color: orange;
+  padding-top: 5px;
+}
+.p-price{
+  padding-top: 5px;
+  display: flex;
+  font-size: 15px;
+}
+.toprate h1{
+  align-content: center;
+  padding-left: 25px;
+}

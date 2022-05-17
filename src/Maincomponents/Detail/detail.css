@@ -1,0 +1,319 @@
+.con-main{
+    display: flex;
+    flex-direction: row;
+   position: fixed;
+   right: 0;
+   top: 0;
+   background-color: white;
+   overflow-y: scroll;
+   height: 100%;
+   transition: 1s transform ease-in-out;
+   transform: translateY(10px);
+   z-index: 1;
+}
+
+.move-right{
+    transform: translateX(1000px); 
+}
+.move-left{
+    transform: translateX(0px); 
+}
+.back-btm{
+    padding-top: 10px;
+    transform: translateX(-2px);  
+}
+.back-111:hover{
+    color: white;
+    background-color: red;
+}
+.back-arrow{
+    font-size: 25px;
+    border-color: white;
+    overflow: hidden;
+    border: hidden;
+}
+.back-111{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+.container-detail{
+    display: flex;
+    flex-direction: column;
+  
+}
+.img-container{
+   display: flex;
+   flex-direction: row;
+   padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.knit-iamg{
+    transition: 2s;
+    height: 300px;
+    width: 300px;
+    
+}
+.knit-iamg-2{
+    height: 300px;
+    width: 300px; 
+   
+}
+.detail-title-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.n-1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.detail-title-name-1{
+    display: flex;
+   
+}
+.detail-rate{
+    display: flex;
+    flex-direction: row;
+ 
+
+}
+.star-rating{
+    height: 40px;
+    width: 110px;
+}
+.store-link{
+   display: flex;
+   align-items: center;
+   padding-left: 10px;
+}
+.pigicon-111{
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.p-saving{
+    padding-left: 5px;
+    font-weight: bold;
+}
+.buy{
+    padding-left: 5px;
+}
+.box-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dbox-1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid wheat;
+    width: 30%;
+    height: 70px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.dbox-1:hover{
+    border-color: aqua ;
+}
+.color{
+   padding-top: 10px;
+
+}
+.color-style{
+    display: flex;
+    flex-direction: row;
+}
+.c-fig-1{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.size{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-around;
+    width: 16%;
+}
+.size-11{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: wheat;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.ra-ca{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.range-cart{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    width: 10%;
+   
+}
+.range-1{
+    height: 35px;
+    width: 35px;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.add-sub{
+    display: flex;
+    flex-direction: column;
+}
+.add-1{
+    height: 18px;
+    width: 20px;
+}
+.add-to{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    align-items: center;
+    padding-top: 5px;
+  
+}
+.add-to-cart{
+    background-color: red;
+    width: 48%;
+   font-size: 20px;
+   height: 37px;
+   padding-left: 25px;
+   opacity: 0.7;
+    
+}
+.buy-now{
+    background-color: green;
+    width: 48%;
+    font-size: 20px;
+   height: 37px;
+   padding-left: 25px;
+   opacity: 0.7;
+    
+}
+.buy-now:hover{
+    opacity: 1;
+}
+.add-to-cart:hover{
+    opacity: 1;
+}
+.sku{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    line-height: 1.7;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.share-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 43%;
+}
+.sha-1{
+    display: flex;
+    flex-direction: row;
+}
+.share-22{
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 14px;
+   
+}
+ .message-twit{
+    
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.bstwit:hover .message-twit{
+    visibility: visible;
+    
+}
+
+.message-facebook{
+   
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+}
+.faface:hover .message-facebook{
+    visibility: visible;
+} 
+.message-teligram{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.fateli:hover .message-teligram{
+    visibility: visible;
+}
+.message-aiout{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 15px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.aiout:hover .message-aiout{
+    visibility: visible;
+    
+}
+.sku-1{
+    font-weight: bold;
+}
